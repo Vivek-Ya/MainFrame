@@ -1,23 +1,61 @@
-# Mainframe (Life Data Dashboard)
+<div align="center">
 
-![status](https://img.shields.io/badge/state-ready_to_ship-brightgreen) ![stack](https://img.shields.io/badge/stack-Spring_Boot_3_|_React_19_|_Vite-blue) ![license](https://img.shields.io/badge/license-MIT-lightgrey)
+# ❖ M A I N F R A M E
+### Personal Life Operating System & Productivity Cockpit
 
-Mainframe is a sci-fi styled productivity cockpit for commits, study, fitness, and content cadence. Spring Boot backend + React/Vite/Tailwind frontend with live feed, goals, reminders, celebrations, and a quiet-hours timezone system.
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
-## Why it’s different
-- **Goal-first UX**: Today’s reminders, quick tick dialog with notes, milestone celebrations (motion + confetti).
-- **Live signal stream**: STOMP/WebSocket feed for real-time activity updates.
-- **Quiet Hours with TZ**: Start/end plus timezone picker; persists locally.
-- **Holo aesthetic**: Dual-mode (dark/light) holo cards, gradients, subtle motion.
-- **Fast lanes**: Quick Capture auto-fills goals; start-date presets; celebration overlay built in.
+<br />
 
-## Stack at a glance
-- Backend: Spring Boot 3.5, JPA, Security (JWT), WebSocket (STOMP), Scheduling, Actuator.
-- Frontend: React 19, Vite, TypeScript, Tailwind, Recharts, framer-motion, canvas-confetti.
-- DB: MySQL by default; H2 for dev profile; Postgres compatible via env overrides.
-- Packaging: Docker Compose for local full-stack; Vercel/Render ready.
+**Mainframe is a sci-fi styled telemetry dashboard for your life.**
+<br />
+Track commits, fitness, study cadence, and content creation in a dual-mode Holo-UI.
+Built for high-performance living with real-time signal feeds and gamified goals.
 
-## Quickstart (local)
+[View Demo](#) · [Report Bug](#) · [Request Feature](#)
+
+</div>
+
+---
+
+## ⚡ Mission Briefing
+
+Mainframe isn't just a to-do list; it's a **Command Center**. It combines hard data (GitHub commits, LeetCode stats) with soft goals (meditation, journaling) in a unified, aesthetically pleasing interface.
+
+### Why it's different
+| Feature | Description |
+| :--- | :--- |
+| **🎨 Holo Aesthetic** | Premium dual-mode (Light/Dark) UI with frosted glass cards, subtle motion, and gradients. |
+| **📡 Live Signal** | Real-time `STOMP/WebSocket` feed updates your activity stream instantly across devices. |
+| **🎯 Goal-First UX** | "Quick Tick" dialogs, streak tracking, and confetti celebrations on milestones. |
+| **🌙 Quiet Hours** | Integrated timezone-aware focus system that persists locally to manage your downtime. |
+| **⚡ Fast Lanes** | Quick Capture inputs with auto-fill logic and start-date presets for rapid logging. |
+
+---
+
+## 🛠️ The Tech Stack
+
+**The Core (Backend)**
+- **Framework:** Spring Boot 3.5 (JPA, Security, Actuator, Scheduling)
+- **Real-time:** WebSocket (STOMP)
+- **Auth:** Stateless JWT Security
+- **DB:** MySQL (Prod) / H2 In-Memory (Dev)
+
+**The View (Frontend)**
+- **Library:** React 19 + Vite + TypeScript
+- **Styling:** Tailwind CSS + Framer Motion
+- **Viz:** Recharts + Canvas Confetti
+- **State:** Axios + LocalStorage persistence
+
+---
+
+## 🚀 Quick Start (local)
 ```bash
 # Backend (dev, H2 in-memory)
 cd server
@@ -116,5 +154,5 @@ Frontend envs (`web`):
 - Add CI (GitHub Actions) for `mvn test` + `npm run build` and deploy to Render/Vercel.
 - Add Redis cache + rate limiting; expand test coverage.
 
-## License
-MIT (set your preferred license if different).
+
+<div align="center"> <sub>Built with 💜 for High Performance Living</sub> </div>
